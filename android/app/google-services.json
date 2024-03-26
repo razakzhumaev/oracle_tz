@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046854793288",
+    "project_id": "oracletz",
+    "storage_bucket": "oracletz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046854793288:android:e20a3234ab45c652ff007d",
+        "android_client_info": {
+          "package_name": "com.example.oracle_tz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlM6mqvaaO8CctlWG4GMgS3d6_NQAlDsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
