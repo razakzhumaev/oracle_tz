@@ -41,9 +41,6 @@ class _LoginScreenState extends State<LoginScreen> {
         email: emailTextInputController.text.trim(),
         password: passwordTextInputController.text.trim(),
       );
-      // SharedPreferences prefs = await SharedPreferences.getInstance();
-      // prefs.setString('email', emailTextInputController.text.trim());
-      // prefs.setString('password', passwordTextInputController.text.trim());
     } on FirebaseAuthException catch (e) {
       debugPrint(e.code);
 
@@ -109,7 +106,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       color: Colors.grey,
                     ),
                     hintText: 'Email',
-                    // hintStyle: TextHelper.w300,
                     filled: true,
                     fillColor: Colors.grey[200],
                     enabledBorder: const OutlineInputBorder(
@@ -147,7 +143,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     ),
                     hintText: 'Пароль',
-                    // hintStyle: TextHelper.w300,
                     filled: true,
                     fillColor: Colors.grey[200],
                     enabledBorder: const OutlineInputBorder(
